@@ -141,6 +141,11 @@ h1, h2, h3, h4, p {
 	background-size: cover;
 }
 
+.relax-image {
+	background: url('../images/Relax_Banner.png')
+	no-repeat;
+	background-size: cover;
+}
 
 /*
   ==========================================
@@ -216,6 +221,10 @@ h3 {
 }
 
 .teasers img {
+	border: 1px solid black;
+}
+
+.img-border {
 	border: 1px solid black;
 }
 
