@@ -368,3 +368,33 @@ a:hover {
 .squirt-card h4{
 	color: black;
 }
+
+/*
+  ==========================================
+	Local Poke
+  ==========================================
+*/
+
+
+table {
+	border-collapse: collapse;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	background: white;
+}
+
+th, td {
+	padding: 15px 15px;
+	border: 1px solid black;
+}
+
+th, caption {
+	text-align: left;
+}
+
+caption {
+	margin-bottom: 10px;
+}
+
