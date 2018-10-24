@@ -375,7 +375,12 @@ a:hover {
   ==========================================
 */
 
-
+.notify-us {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 45px;
+}
 table {
 	border-collapse: collapse;
 	width: 70%;
@@ -388,13 +393,29 @@ table {
 th, td {
 	padding: 15px 15px;
 	border: 1px solid black;
+	vertical-align: middle;
 }
 
 th, caption {
 	text-align: left;
 }
 
+td p {
+	display: block;
+	margin-bottom: 10px;
+}
+
 caption {
 	margin-bottom: 10px;
+}
+
+.loc-image {
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 5px;
+	width: 96px;
+	height: 96px;
+	border: solid 1px black;
+	border-radius: 50px;
 }
 
